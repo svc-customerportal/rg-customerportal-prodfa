@@ -72,6 +72,6 @@ jobs:
           app-name: 'rg-customerportal-prodfa'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2522770A57B94CD19FCA257A4DC708F4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_064E8267664D4B33B5DFAD3C5E662C85 }}
           sku: 'flexconsumption'
         
